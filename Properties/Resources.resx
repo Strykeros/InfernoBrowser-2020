@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ExtForm_Shape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\extform_shape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="History_Function" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\History_Function.js;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="History_Style" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\History_Style.css;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Incognito_Off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Incognito_Off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Incognito_On" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Incognito_On.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inferno_Browser_Logo__Transparent_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\inferno browser logo (transparent).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inferno_Browser_Logo__Transparent_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inferno Browser Logo (Transparent).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inferno_Logo_PNG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\inferno logo png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inferno_Main_Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inferno_Main_Page.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Inferno_Main_Page1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inferno_Main_Page.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Inferno_Main_Page_BG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inferno Main Page BG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inferno_Style" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inferno_Style.css;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Inferno_Style1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inferno_Style.css;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="navbtn_backwards_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_backwards_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_backwards_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_delete_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_delete_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_delete_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_delete_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_delete_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_delete_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_delete_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_delete_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_delete_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_delete_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_delete_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_delete_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_delete_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_delete_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_delete_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_delete_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_delete_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_delete_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_forwards_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_forwards_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_go_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_go_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_go_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_go_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_go_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_go_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_go_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_go_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_go_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_go_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_go_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_go_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_go_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_go_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_go_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_go_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_go_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_go_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_go_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_go_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_go_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_go_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_go_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_go_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_history_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_history_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_history_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_history_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_history_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_history_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_history_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_history_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_history_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_history_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_history_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_history_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_history_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_history_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_history_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_history_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_history_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_history_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_reload_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_reload_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_reload_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_reload_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_reload_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_reload_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_reload_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_reload_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_reload_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_reload_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_reload_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_reload_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_reload_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_reload_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_reload_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_reload_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_reload_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_reload_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_reload_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_reload_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navbtn_reload_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\navbtn_reload_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
